@@ -141,11 +141,11 @@ entities:
   - entity: number
     name: Sleep Timer
     category: config
+    mode: box
     dps:
       - id: 105
         type: integer
         name: value
-        mode: box
         unit: min
         range:
           min: 0
@@ -169,11 +169,11 @@ entities:
   - entity: number
     name: Timer
     category: config
+    mode: box
     dps:
       - id: 108
         type: integer
         name: value
-        mode: box
         unit: min
         range:
           min: 1
@@ -181,11 +181,11 @@ entities:
   - entity: number
     name: Clock1 Time
     category: config
+    mode: box
     dps:
       - id: 109
         type: integer
         name: value
-        mode: box
         unit: min
         range:
           min: 0
@@ -193,11 +193,11 @@ entities:
   - entity: number
     name: Clock2 Time
     category: config
+    mode: box
     dps:
       - id: 110
         type: integer
         name: value
-        mode: box
         unit: min
         range:
           min: 0
@@ -205,11 +205,11 @@ entities:
   - entity: number
     name: Clock3 Time
     category: config
+    mode: box
     dps:
       - id: 111
         type: integer
         name: value
-        mode: box
         unit: min
         range:
           min: 0
